@@ -1,0 +1,190 @@
+*{margin:0;padding:0;}
+a{
+	text-decoration:none;
+    color:#333;
+    font-family:Arial,"����";
+    font-weight:lighter;
+}
+.logo{
+	width:1180px;
+    margin:10px auto;
+}
+.logo>img{
+	margin:10px 50px 10px;
+	}
+.logo>input{
+			margin:0 0 0 600px;
+            width:146px;height:20px;
+            border:1px solid #b7b7b7;
+            -webkit-input-placeholder;
+}
+.header{
+    width:100%;
+    background-color:#FBF2F1;
+    display:flex;
+}
+.header-top{
+    width:1180px;height:34px;
+    margin:0 auto;
+}
+.header-top ul li{
+    float:left;
+    list-style:none;
+    margin:0px 20px;
+    line-height:30px;
+}
+.heder-li{float:right;}
+/*�в�*/
+.header-middle{
+    width:1180px;height:95px;
+    margin:0 auto;
+}
+.header-middle div img{margin:25px 50px;}
+.header-middle div input{width:250px;height:30px;
+    margin:-10px 240px;float:right;
+    border:none;
+    color:#b7b7b7;
+}
+.header{
+    width:100%;
+    background-color:#FBF2F1;
+    display:flex;
+}
+.header-top{
+    width:1180px;height:34px;
+    margin:0 auto;
+}
+.header-top ul li{
+    float:left;
+    list-style:none;
+    margin:0px 20px;
+    line-height:30px;
+}
+/*首页导航点击有效果*/
+/*导航鼠标经过*/
+.bottom1 ul li a:hover{
+    color: #F6827A;
+}
+/*首页*/
+.bottom1>ul>li:hover+.mouse{
+    display:block;
+}
+.mouse:hover{
+    display:block;
+}
+/*二级菜单*/
+.mouse{
+    width:1130px;height:300px;
+    background:rgba(216,196,196,0.8);
+    position:absolute;
+    z-index: 999;
+    margin:33px 0;
+    display:none ;
+}
+.mouse ul{
+    float:left;
+    list-style:none;
+    padding:12px 16px;
+   
+}
+.mouse img{
+    float:right;
+    padding:20px 20px 0;   
+}
+.mouse ul:nth-child(2){
+    padding:77px 0;
+    font-size:16px;
+}
+.mouse ul:nth-child(3){
+    padding:77px 0;
+    font-size:16px;
+}
+.header-bottom{width:100%;height:33px;
+    background:#909090;
+    position: relative;
+}
+.bottom1>ul>li{
+    float: left;
+    list-style: none;
+    line-height: 30px;
+    padding:0 5px;
+}
+.bottom1{width:1180px;height:33px;
+    position:absolute;
+    z-index:10;
+}
+.bottom1>ul{
+    margin:0 auto;
+    width:450px;
+}
+.bottom1 a{
+    color:#fff;
+    font-size:13px;
+    margin:20px 10px;
+}
+/*底部*/
+.b-content{
+	width:1000px;margin:100px auto;
+    display:flex;
+    justify-content:space-around;
+}
+.b-content>div>li:first-child{
+    font-size:20px;
+    margin:0 -2px 5px;
+}
+.b-content2{width:1000px;
+}
+/*�ײ���վ��ͼ��*/
+.wzdt{
+	width:1180px;
+    margin:0 auto;
+    text-align: center;
+}
+.wzdt>a{color:#666;  }
+.wzdz_1{
+	text-align:center;
+    margin-top:30px;
+}
+.f1{
+	width:100%;display:flex;
+	}
+/*�Ϻ�����*/
+.wdzt_2{
+	margin:30px 227px;
+	}
+.wdzt_img{
+	margin:0 auto;
+	}
+.wdzt_img img:last-child{
+	width:115px;
+	}
+/*倒数第二行footer-gray*/
+.footer-gray{
+    width:100%;height:80px;
+    background:#e9e9e9;
+}
+.footer-gray a{
+    height:39px;width:120px;
+    background-image: url("coin_left.png");
+    background-repeat:no-repeat;
+    display:block;
+    float: left;
+    font-size:18px;
+    text-align: right;
+    margin:20px 38px;
+}
+.footer-gray a:last-child{
+    width:320px;
+}
+.f1{
+	width:100%;display:flex;
+    }
+    .bottom{
+        width:100%;
+        background:#FDF2EC;
+        list-style:none;
+        display:flex;
+        font-size:18px;
+        color:#999999;
+        flex-wrap:wrap;  
+    }

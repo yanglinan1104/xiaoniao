@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+		<div>
+				<h1>退出登录</h1> 
+				<script>
+					//清除登录条件
+					sessionStorage.removeItem("uname");
+					alert("3秒跳回首页");
+					location.href="/index/index.html";
+				</script>
+			</div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+/*a标签通用*/
+a{text-decoration:none;
+    color:#333;
+    font-family:Arial,"宋体";
+    font-weight:lighter;
+}
+
+/*关于我们5个div*/
+.bottom{width:100%;
+    background:#FDF2EC;
+    list-style:none;
+    display:flex;
+    font-size:18px;
+    color:#999999;
+    flex-wrap:wrap;
+	
+}
+.b-content{width:1000px;margin:100px auto;
+    display:flex;
+    justify-content:space-around;
+}
+.b-content>div>li:first-child{
+    font-size:20px;
+    margin:0 -2px 5px;
+}
+.b-content2{width:1000px;
+}
+/*底部网站地图等*/
+.wzdt{width:1180px;
+    margin:0 auto;
+    text-align: center;
+}
+.wzdt>a{color:#666;  }
+.wzdz_1{text-align:center;
+    margin-top:30px;
+}
+.f1{width:100%;display:flex;}
+.wdzt_2{margin:30px 565px;  }
+.wdzt_img{margin:0 560px;  }
+.wdzt_img img:last-child{width:115px;}
+
+
+
+

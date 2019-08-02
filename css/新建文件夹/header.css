@@ -1,0 +1,32 @@
+*{margin:0;padding:0;}
+a{text-decoration:none;
+    color:#333;
+    font-family:Arial,"宋体";
+    font-weight:lighter;
+}
+.logo{width:1180px;
+    margin:10px auto;
+}
+.logo>img{margin:10px 50px 10px;}
+.logo>input{margin:0 0 0 600px;
+            width:146px;height:20px;
+            border:1px solid #b7b7b7;
+            -webkit-input-placeholder
+}
+.header{
+    width:100%;
+    background-color:#FBF2F1;
+    display:flex;
+}
+.header-top{
+    width:1180px;height:34px;
+    margin:0 auto;
+}
+.header-top ul li{
+    float:left;
+    list-style:none;
+    margin:0px 20px;
+    line-height:30px;
+}
+.header-top1{float: left;}
+.heder-li{float:right;}
