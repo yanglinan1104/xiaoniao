@@ -63,7 +63,7 @@ input[type=checkbox]{
 	margin-top:10px;
 }
 .log-cen a{color:#B73958;}
-.log-btn1,.log-btn2{
+.log-btn1{
 	border:2px solid #E88383;
 	border-radius:3px;
 	display:inline-block;
@@ -76,10 +76,7 @@ input[type=checkbox]{
 	line-height:38px;
 	font-weight:bold;
 }
-.log-btn2{
-	background:#E88383;
-	color:#fff;
-}
+
 .log-deng{
 	border-top:1px solid #D1B7B7;
 	margin-top:30px;
